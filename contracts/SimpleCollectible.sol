@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 contract SimpleCollectible is ERC721 {
     uint256 public tokenCounter;
 
-    constructor() public ERC721("Main Net", "MAN") {
+    constructor() public ERC721("Dogie", "DOG") {
         tokenCounter = 0;
     }
 
